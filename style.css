@@ -1,0 +1,22 @@
+@keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  /* attach the animations to the elements via their id attribute using a delay of 0s and 50% of the runtime respectively */
+  
+  #namechange1 {
+    animation: fade 2s infinite 1.2s;
+  }
+  
+  #namechange2 {
+    animation: fade 2s infinite 1.2s;
+  }
