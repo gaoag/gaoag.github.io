@@ -1,6 +1,6 @@
 
 window.onload = function(){
-    setInterval(switchNames, 2000)
+    setInterval(switchNames, 8888)
 };
 
 function switchNames() {
@@ -12,5 +12,6 @@ function switchNames() {
     name1elem.textContent = name2;
     name2elem.textContent = name1;
     console.log('called')
+
 
 }
