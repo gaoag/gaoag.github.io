@@ -14,10 +14,11 @@
   /* attach the animations to the elements via their id attribute using a delay of 0s and 50% of the runtime respectively */
   
   #namechange1 {
-    animation: fade 8s infinite 4.2s;
+    animation: fade 8s infinite 4s;
   }
   
   #namechange2 {
-    animation: fade 8s infinite 4.2s;
+    animation: fade 8s infinite 4s;
 
   }
+
