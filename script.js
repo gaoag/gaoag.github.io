@@ -1,6 +1,6 @@
 
 window.onload = function(){
-    setInterval(switchNames, 8888)
+    setInterval(switchNames, 100000)
 };
 
 function switchNames() {
@@ -14,4 +14,5 @@ function switchNames() {
 
 
 }
+
 
