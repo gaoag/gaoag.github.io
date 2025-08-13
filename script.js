@@ -11,7 +11,7 @@ function switchNames() {
     const name2 = name2elem.textContent;
     name1elem.textContent = name2;
     name2elem.textContent = name1;
-    console.log('called')
 
 
 }
+
