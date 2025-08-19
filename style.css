@@ -2,7 +2,25 @@
     0% {
       opacity: 1;
     }
+    12% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    37% {
+      opacity: 0;
+    }
     50% {
+      opacity: 0;
+    }
+    62% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 0;
+    }
+    87% {
       opacity: 0;
     }
     100% {
@@ -14,13 +32,14 @@
   /* attach the animations to the elements via their id attribute using a delay of 0s and 50% of the runtime respectively */
   
   #namechange1 {
-    animation: fade 2s infinite 8s;
+    animation: fade 8s infinite;
   }
   
   #namechange2 {
-    animation: fade 2s infinite 8s;
+    animation: fade 8s infinite;
 
   }
+
 
 
 
